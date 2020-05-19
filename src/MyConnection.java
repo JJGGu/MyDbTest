@@ -6,6 +6,12 @@
  **/
 import java.sql.*;
 
+//1.注册JDBC驱动
+//2.连接数据库
+//3.实例化statement
+//4.使用statement执行查询等语句并返回ResultSet
+//5.迭代显示查询得到的数据
+//6.关闭resultset，statement，connection
 public class MyConnection {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/onlinedb?" +
